@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script type="text\javascript" src="jquerypro.js"></script>
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Lets play this game together</h2>
+      <
+<!-- selection button -->
+<div class="icons-holder button-row">
+  <div class="icon rock ">
+    <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+  </div>
+  <div class="icon paper">
+    <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+  </div>
+  <div class="icon scissors ">
+    <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
+  </div>
+</div>
+<!-- end of new choices div -->
+
+      <!-- game placement div -->
+      <div class="game-message-placement">
+        <div id="game-message"></div>
+      </div>
+      <!-- div score board -->
+      <div class="scoreboard-placement">
+        <div id="score-board">
+          <p class="score-board-row" id="playerWins">
+            <strong>Victories:</strong><span id="wins">0</span>
+          </p>
+          <p class="score-board-row" id="playerDraws">
+            <strong>Draws:</strong><span id="draws">0</span>
+          </p>
+          <p class="score-board-row" id="playerLosses">
+            <strong>Defeats:</strong><span id="losses">0</span>
+          </p>
+        </div>
+      </div>
+      <!-- end of scoreboard -->
+      <!-- reset -->
+      <p id="reset-scores">Reset Scores</p>
+    </div>
+    <!-- end of container div -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
